@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MZViewController : UIViewController
+@interface MZViewController : UIViewController <UITextFieldDelegate>
+
+@property (copy, nonatomic) NSString *userName;
 
 @end
